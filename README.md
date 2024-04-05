@@ -1,0 +1,1 @@
+Desenvolva uma plataforma para crowdfunding, onde os usuários podem criar campanhas de arrecadação de fundos para projetos pessoais ou causas sociais, e outros usuários podem contribuir financeiramente para essas campanhas, com recursos como criação de campanhas, doações online, acompanhamento de metas e compartilhamento em redes sociais.
