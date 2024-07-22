@@ -1,5 +1,5 @@
-package br.org.cowdfounding.nandi.entities;
+package nandi.entities;
 
-public enum Categoria {
+public enum Category {
 
 }

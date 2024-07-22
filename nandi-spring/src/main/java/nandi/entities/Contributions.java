@@ -1,4 +1,4 @@
-package br.org.cowdfounding.nandi.entities;
+package nandi.entities;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

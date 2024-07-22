@@ -1,4 +1,4 @@
-package br.org.cowdfounding.nandi.entities;
+package nandi.entities;
 
 import java.time.LocalDateTime;
 import java.util.UUID;

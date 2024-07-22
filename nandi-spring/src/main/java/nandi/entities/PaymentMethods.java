@@ -1,4 +1,4 @@
-package br.org.cowdfounding.nandi.entities;
+package nandi.entities;
 
 import java.util.UUID;
 
@@ -10,7 +10,7 @@ import jakarta.persistence.Id;
 @Entity
 public record PaymentMethods(
 		@Id @GeneratedValue(strategy = GenerationType.UUID) UUID id,
-		TipoPagamento tipoPagamento,
+		PaymentType tipoPagamento,
 		String detalhes,
 		Users user) {
 

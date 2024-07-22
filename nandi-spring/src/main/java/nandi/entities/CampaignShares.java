@@ -1,4 +1,4 @@
-package br.org.cowdfounding.nandi.entities;
+package nandi.entities;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -11,7 +11,7 @@ import jakarta.persistence.Id;
 @Entity
 public record CampaignShares(
 		@Id @GeneratedValue(strategy = GenerationType.UUID) UUID id,
-		RedeSocial redeSocial,
+		SocialNetwork redeSocial,
 		LocalDateTime dataCompartilhamento,
 		Users user,
 		Campaigns campaign) {

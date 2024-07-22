@@ -1,4 +1,4 @@
-package br.org.cowdfounding.nandi.entities;
+package nandi.entities;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -16,7 +16,7 @@ public record Campaigns(
 		String descricao,
 		BigDecimal metaFinanceira,
 		LocalDateTime prazo,
-		Categoria categoria,
+		Category categoria,
 		LocalDateTime dataCriacao,
 		LocalDateTime dataAtualizacao,
 		Users user) {
