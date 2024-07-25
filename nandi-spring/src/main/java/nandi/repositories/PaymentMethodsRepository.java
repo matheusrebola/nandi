@@ -1,4 +1,4 @@
-package nandi.repository;
+package nandi.repositories;
 
 import java.util.UUID;
 

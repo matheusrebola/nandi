@@ -1,13 +1,13 @@
-package nandi.repository;
+package nandi.repositories;
 
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import nandi.entities.Categories;
+import nandi.entities.Contributions;
 
 @Repository
-public interface CategoriesRepository extends JpaRepository<Categories, UUID> {
+public interface ContributionsRepository extends JpaRepository<Contributions, UUID> {
 
 }
