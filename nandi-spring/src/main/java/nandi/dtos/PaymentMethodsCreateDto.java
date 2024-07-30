@@ -1,5 +1,11 @@
 package nandi.dtos;
 
-public record PaymentMethodsCreateDto() {
+import nandi.entities.PaymentType;
+import nandi.entities.Users;
+
+public record PaymentMethodsCreateDto(
+		PaymentType tipoPagamento,
+		String detalhes,
+		Users user) {
 
 }

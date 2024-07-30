@@ -1,5 +1,12 @@
 package nandi.dtos;
 
-public record CategoriesDto() {
+import java.util.UUID;
+
+import jakarta.validation.constraints.NotNull;
+
+public record CategoriesDto(
+		@NotNull UUID id,
+		String nome,
+		String descricao) {
 
 }

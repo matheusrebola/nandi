@@ -1,5 +1,7 @@
 package nandi.dtos;
 
-public record CategoriesCreateDto() {
+public record CategoriesCreateDto(
+		String nome,
+		String descricao) {
 
 }
