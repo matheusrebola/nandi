@@ -12,7 +12,7 @@ import jakarta.persistence.Id;
 public record Notifications(
 		@Id @GeneratedValue(strategy = GenerationType.UUID) UUID id,
 		String mensagem,
-		boolean lida,
+		Boolean lida,
 		LocalDateTime dataCriacao,
 		Users user) {
 
